@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            font-size: 20px;
+        }
+        .absolute{
+            width: 300px;
+            height: 300px;
+            background: red;
+        }
+        .relative{
+            font-size: 2em;
+        }
+        .percent{
+            background: red;
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>đơn vị đo trong CSS</h1>
+    <h2>đơn vị đo tuyệt đối</h2>
+    <p class="absolute">Đơn vị đo tuyệt đối</p>
+    <h2>Đơn vị đo tương đối</h2>
+    <p>mặc định 1em bằng 16px</p>
+    <p>nhưng phần chuẩn chỉnh này phụ thuộc vào phần cấu css của thẻ body</p>
+    <p>khi mà font-size của body là 20px thì 1em=20px</p>
+    <p class="relative">Đơn vị đo tương đối (2em=32px)</p>
+
+
+    <h2>Đơn vị đo %</h2>
+    <p class="percent"> Đơn vị đo %</p>
+</body>
+</html>
