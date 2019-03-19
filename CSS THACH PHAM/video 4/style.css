@@ -1,0 +1,28 @@
+#px{
+    width: 72px;
+    height: 144px;
+    background: red;
+}
+
+#box{
+    width: 800px;
+    height: 400px;
+    background-color: blue;
+}
+
+#child{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+#mother{
+    font-size: 16px;
+    background-color: blue;
+}
+
+#my{
+    width: 4em;
+    height: 4em;
+    background-color: red;
+}

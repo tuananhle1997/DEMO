@@ -1,0 +1,24 @@
+/*
+.trangtri{
+    text-align: center;
+    text-decoration: underline;
+}
+*/
+
+
+/*
+.trangtri{
+text-indent: 100px;
+}
+*/
+
+
+/*
+.trangtri{
+    text-indent: -100px;
+}
+*/
+
+.trangtri{
+    text-shadow: blue 2px 3px 4px;
+}
