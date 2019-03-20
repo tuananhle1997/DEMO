@@ -1,0 +1,10 @@
+div{
+    background-color: #CCCCCC;
+    background-image: url('6.jpg');
+    background-repeat: no-repeat ;
+    background-position: bottom left, top right;
+    background-size:100px, 400px ;
+}
+h1{
+    height: 200px;
+}
