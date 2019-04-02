@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <style type="text/css">
+        #target1{
+            background: green;
+            color: white;
+            width: 50%;
+            padding: 20px;
+            position: absolute;
+            left: 0;
+            top: 50px;
+        }
+
+        #target2{
+            background: green;
+            color: white;
+            width: 50%;
+            padding: 20px;
+            position: absolute;
+            left: 50%;
+            top: 150px;
+            transform: translate(-50%, -50%);
+        }
+
+        #target3{
+            background: green;
+            color: white;
+            width: 50%;
+            padding: 20px;
+            position: absolute;
+            right: 0;
+            top: 200px;
+        }
+
+        #paren1, #paren2, #paren3{
+            width: 65%;
+            margin: 400px;
+            background: green;
+            color: white;
+            padding: 30px;
+            position: relative;
+            height: 300px;
+
+        }
+
+        #child1, #child2, #child3{
+            position: absolute;
+            background: orange;
+            padding: 30px;
+            width: 300px;
+        }
+
+        #child1{
+            top:0;
+            left: 0;
+        }
+
+        #child2{
+            left: 50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #child3{
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="target1">
+        thẻ block nằm trực tiếp trong thẻ body căn trái
+    </div>
+
+    <div id="target2">
+        thẻ block nằm trực tiếp trong thẻ body căn giữa
+    </div>
+
+    <div id="target3">
+        thẻ block nằm trực tiếp trong thẻ body căn phải
+    </div>
+
+    <div id="paren1">
+        <div id="child1">
+            thẻ block nằm trực tiếp trong thẻ body căn trái
+        </div>
+    </div>
+
+    <div id="paren2">
+        <div id="child2">
+            thẻ block nằm trực tiếp trong thẻ body căn giữa
+        </div>
+    </div>
+
+    <div id="paren3">
+        <div id="child3">
+            thẻ block nằm trực tiếp trong thẻ body căn phải
+        </div>
+    </div>
+</body>
+</html>

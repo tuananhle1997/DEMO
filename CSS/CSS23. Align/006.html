@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <style type="text/css">
+        #target1{
+            margin: 50px auto;
+            width: 700px;
+            padding: 30px 0;
+            background: green;
+            color: white;
+            text-align: center;
+        }
+
+        #target2{
+            margin: 50px auto;
+            width: 700px;
+            height: 200px;
+            line-height: 200px;
+            background: green;
+            color: white;
+            text-align: center;
+        }
+
+        #parent{
+            position: relative;
+            background: green;
+            margin: 50px 0;
+            height: 500px;
+        }
+
+        #child{
+            position: absolute;
+            background: orange;
+            top: 50%;
+            left: 50%;
+            padding: 30px;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="target1">
+        căn giữa theo chiều dọc cho phần nội dung là văn bản <br>
+        áp dụng cho thẻ mẹ không có chiều cao cụ thể <br>
+        và nội dung bên trong chỉ có 1 dòng duy nhất <br>
+    </div>
+
+    <div id="target2">
+        căn giữa cho nội dung 1 hàng sử dụng line-height=height
+    </div>
+
+    <div id="parent">
+        <div id="child">
+            DIV lồng DIV<br>
+            DIV lồng DIV<br>
+            DIV lồng DIV<br>
+            DIV lồng DIV<br>
+            DIV lồng DIV<br>
+        </div>
+    </div>
+</body>
+</html>

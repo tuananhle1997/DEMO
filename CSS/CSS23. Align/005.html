@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <style type="text/css">
+        .clearfix {
+            overflow: auto;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        #target1, #target2{
+            color: white;
+            width: 350px;
+            padding: 30px;
+        }
+
+        #target1{
+            float: left;
+            background: green;
+        }
+
+        #target2{
+            float: right;
+            background: orange;
+        }
+        .clr{
+            clear: both;
+        }
+        #parent{
+            margin-top: 20px;
+            background: red;
+            color: white;
+            padding: 30px 0 30px 0;
+            width: 1000px;
+        }
+
+        #parent #child1{
+            float: left;
+            background: violet;
+            color: white;
+            padding: 20px;
+        }
+
+        #parent #child2{
+            float: right;
+            background: black;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="target1">
+        thẻ nằm trực tiếp trong body
+    </div>
+
+    <div id="target2">
+        thẻ nằm trực tiếp trong body
+    </div>
+
+    <div class="clr"></div>
+    <div id="parent"  class="clearfix">
+        <div id="child1">thẻ div nằm trong div</div>
+        <div id="child2">thẻ div nằm trong div</div>
+    </div>
+</body>
+</html>
