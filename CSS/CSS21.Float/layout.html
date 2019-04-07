@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <style type="text/css">
+        .clearfix{
+            overflow: auto;
+        }
+
+        .clearfix::after{
+            content:"";
+            clear: both;
+            display: table;
+        }
+
+        .page-wrap header{
+            background: #eeeeee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .page-wrap footer{
+            background: #eeeeee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .page-wrap nav{
+            margin: 10px 0;
+            padding: 10px 20px;
+            background: #eeeeee;
+            text-align: center;
+        }
+
+        .page-wrap .content{
+            margin: 10px 0;
+        }
+
+        .content .aside-left{
+            width: 20%;
+            background: #eeeeee;
+            float: left;
+            min-height: 500px;
+            box-sizing: border-box;
+        }
+
+        .content .aside-right{
+            width: 20%;
+            background: #eeeeee;
+            float: right;
+            min-height: 500px;
+            box-sizing: border-box;
+        }
+
+        .content .main-content{
+            background: #eeeeee;
+            min-height: 500px;
+            width: 60%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrap">
+        <header>header</header>
+        <nav>Navigation</nav>
+        <div class="content clearfix">
+            <div class="aside-left"> Sidebar Left </div>
+            <div class="main-content"> Main content </div>
+            <div class="aside-right"> Sidebar Right </div>
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

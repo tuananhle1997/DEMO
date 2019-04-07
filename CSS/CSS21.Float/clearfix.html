@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .clearfix {
+            overflow: auto;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            background: #CCCCCC;
+        }
+        img {
+            max-width: 200px;
+        }
+        .img1 {
+            float: left;
+        }
+        .img2 {
+            float: right;
+        }
+        .content {
+            width: 400px;
+            clear: left;
+        }
+    </style>
+    <link rel="stylesheet" href="Normalize.css">
+</head>
+<body>
+    <h1>CSS Clearfix</h1>
+    <div style="font-weight: bold">
+        khi 1 thẻ cao hơn thẻ mẹ chứa nó và nó được float left hoặc right <br>
+        => thì nó sẽ trượt khỏi thẻ<br>
+        => thẻ mẹ không còn chứa được thẻ con <br>
+        vậy để giải quyết vấn đề này có 2 cách phổ biến <br>
+        Cách 1: Đặt thẻ mẹ thuộc tính overflow:hidden (cách này có nhược điểm)<br>
+        Cách 2: đó là sử dụng class clearfix và đặt class clearfix này cho thẻ mẹ
+        .clearfix { <br>
+            overflow: auto;<br>
+        }<br>
+
+        .clearfix: after{<br>
+            content: "";<br>
+        clear: both;<br>
+        display: table; <br>
+        }<br>
+
+    </div>
+    <div class="container clearfix">
+    <div class="img1">
+        <img src="dog.jpg" alt="float left" />
+    </div>
+
+    <div class="img2">
+        <img src="cat.jpg" alt="float right" />
+    </div>
+
+
+
+    </div>
+
+</body>
+</html>
