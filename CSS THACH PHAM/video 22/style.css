@@ -1,0 +1,68 @@
+body{
+    background: beige;
+}
+.banner{
+    height: 150px;
+    border-bottom: 5px solid green;
+}
+/*   menu  */
+#menu{
+    width: 89%;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.left{
+    width: 10%;
+    float: left;
+}
+
+#menu ul {
+    list-style-type: none;
+    background: beige;
+    text-align: center;
+    font-size: 20px;
+    /* overflow: hidden; */
+}
+    /*
+    overflow: hidden;
+    */
+
+#menu ul li{
+    color: white;
+    width: 120px;
+    height: 40px;
+    display: inline-table;
+    line-height: 40px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: cyan;
+    text-decoration: none;
+    display: block;
+    background: silver;
+}
+
+#menu ul li a:hover{
+    background: #f1f1f1;
+    color: #333;
+}
+
+#menu ul li > .sup-menu{
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover .sup-menu{
+    display: block;
+}
+
+
+/* menu dọc */
+
+
