@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../CSS23. Align/Normalize.css">
+    <style type="text/css">
+        .container .para1{
+            background: green;
+        }
+
+        .container > .para1{
+            background: orange;
+        }
+
+        .container + p{
+            background: red;
+        }
+
+        .container ~ section{
+            background: violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="para1">Selector lồng con trực tiếp</p>
+        <div class="row">
+            <p class="para1">Selector lồng con</p>
+            <p class="para1">Selector lồng con</p>
+            <p class="para1">Selector lồng con</p>
+        </div>
+    </div>
+
+    <p>thẻ p cùng cấp anh chị em 1</p>
+
+    <div>thẻ div</div>
+
+    <section>thẻ section cùng cấp anh chị em 2</section>
+
+    <section>thẻ section cùng cấp anh chị em 3</section>
+
+</body>
+</html>

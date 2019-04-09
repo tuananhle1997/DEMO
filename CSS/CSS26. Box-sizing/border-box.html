@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <style type="text/css">
+        #target1 {
+            width: 300px;
+            height: 300px;
+            background: green;
+            color: white;
+            box-sizing: border-box;
+        }
+        #target2 {
+            width: 300px;
+            height: 300px;
+            background: orange;
+            color: white;
+            padding: 20px;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Box Sizing</h1>
+
+    <h2>Content-box</h2>
+
+    <p>chiều rộng thực tế = css width = padding left + padding right + border left + border right</p>
+    <p>chiều cao thực tế = css height = padding top + padding bottom + border top + border bottom</p>
+
+    <h2>Border-box (kiểm soát được chính xác kích cỡ)</h2>
+
+    <p>chiều rộng thực tế = CSS width</p>
+    <p>chiều cao thực tế = CSS height</p>
+
+    <div id="target1">
+        Box 1
+    </div>
+
+    <div id="target2">
+        Box 2
+    </div>
+</body>
+</html>
