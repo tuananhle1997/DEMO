@@ -1,0 +1,50 @@
+/*
+ul li{
+    list-style-type: disc;
+}
+
+ul li{
+    list-style-type: circle;
+}
+
+ul li{
+    list-style-type: decimal;
+}
+ul li{
+    list-style-type: lower-roman;
+}
+ul li{
+    list-style-type: upper-roman;
+}
+ul li{
+    list-style-type: none;
+}
+*/
+
+
+ul li{
+    list-style-type: square;
+}
+ul{
+    background: red;
+    magin-left:32px;
+    padding: 0;
+    width: 250px;
+
+
+}
+/*
+li{
+    list-style-type: none;
+    list-style-position:inside;
+    list-style-image: url("1.png");
+}
+*/
+
+li{
+    list-style: square outside ;
+}
+
+li{
+    list-style: circle inside ;
+}

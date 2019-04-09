@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+img:hover{
+    transform:rotate(80deg);
+    transform-origin: -100% -100%;
+}
