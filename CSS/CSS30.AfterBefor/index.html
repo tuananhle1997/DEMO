@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <style type="text/css">
+        .container{
+            background: orange;
+            margin: 30px auto;
+            width: 1000px;
+        }
+
+        .row{
+            background: #FF0000;
+            overflow: auto;
+            padding: 20px 0;
+        }
+
+        .row::before{
+            content:"thêm vào phía đầu bên trong thẻ";
+            color: white;
+            clear: both;
+            display: block;
+        }
+
+        .row::after{
+            content:"thêm vào phía sau bên trong thẻ";
+            color: white;
+            clear: both;
+            display: block;
+        }
+        .row .col1{
+            float: left;
+            min-height: 350px;
+            background: green;
+            color: white;
+            width: 33%;
+        }
+
+        .row .col2{
+            float: right;
+            min-height: 350px;
+            background: blueviolet;
+            color: white;
+            width: 67%;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS ::befor ::after</h1>
+    <p>::befor được sử dụng để thêm 1 phần nội dung có thể là rỗng ở bên trong selector ở phía đầu</p>
+
+    <p>::befor được sử dụng để thêm 1 phần nội dung hoặc định dạng css vào bên trong selector ở phía cuối</p>
+    <div class="container">
+        <div class="row">
+            <div class="col1">Column 1</div>
+            <div class="col2">Column 2</div>
+        </div>
+    </div>
+</body>
+</html>
