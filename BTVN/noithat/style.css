@@ -1,0 +1,383 @@
+
+header{
+    box-sizing: border-box;
+    height: 170px;
+    padding: 50px 0;
+}
+header .logo{
+
+}
+header .main-menu{
+
+}
+header nav.main-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+header nav.main-menu li{
+    display: inline-block;
+}
+header nav.main-menu a{
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #8d8d8d;
+}
+header nav.main-menu i{
+    color: #8d8d8d;
+    font-size: 20px;
+    padding-left: 10px;
+}
+/*banner css
+*/
+.banner{
+    margin-top: -170px;
+    height: 936px;
+    width: 100%;
+    background-image:url("image/banner.jpg") ;
+    display: table;
+}
+.banner h1{
+    font-size: 83px;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+
+    display: table-cell;
+}
+.banner h1 span{
+    color: #f66c27;
+}
+/*main css
+*/
+.main-menu_1 .menu-img{
+    box-sizing: border-box;
+    margin-top: 160px;
+}
+.main-menu_1 .menu-img .img_1{
+
+    width: 657px;
+    height: 505px;
+    position: relative;
+
+}
+.main-menu_1 .menu-img .img_2{
+
+    width: 301px;
+    height: 213px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.main-menu_1 .menu-info{
+    margin-top: 200px;
+    padding-left:50px;
+}
+.main-menu_1 .menu-info h1{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.main-menu_1 .menu-info-1 ul{
+    line-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-menu_1 .menu-info-1 ul li{
+    display: inline-block;
+}
+.main-menu_1 .menu-info-1 a{
+    font-size: 25px;
+    color: #f48146;
+    padding-right: 80px;
+}
+.info p{
+    font-size: 15px;
+    color: #888888;
+    padding: 30px 0;
+}
+.input-1 input{
+    color: #ffffff;
+    background: #f48146;
+    width: 185px;
+    height: 65px;
+    padding: 20px 40px;
+    border-radius: 32px;
+    font-size: 18px;
+}
+
+
+
+
+.main-menu_2 h1{
+    margin: 60px 0;
+}
+.one .one_1{
+    border:1px solid #eeeded;
+    width: 350px;
+    height: 370px;
+}
+.one .two i{
+    padding: 80px 150px;
+}
+.one .one_1 i{
+    padding: 80px 150px;
+}
+
+.one .one_1 h3, p{
+    text-align: center;
+}
+.one .one_1 p{
+    padding: 0 20px;
+}
+
+.one .two{
+    border:1px solid #eeeded;
+    width: 350px;
+    height: 370px;
+    background: white;
+}
+.one .two h3,p{
+    text-align: center;
+}
+.one .two p{
+    padding: 0 20px;
+}
+.cl3{
+    padding: 0;
+    margin: 0;
+}
+.cl3 h1, p{
+    text-align: center;
+}
+.cl3 h1{
+    margin: 100px 0;
+    font-size: 45px;
+}
+.cl3 p{
+    font-size: 15px;
+    color: #bdbdbd;
+    text-align: center;
+}
+.img3{
+    width: 100%;
+    height: 669px;
+}
+.cl4{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cl4 .cll4{
+    background-image: url("/image/img4.jpg");
+    width: 100%;
+    height: 360px;
+    background-color: #ff7b38;
+}
+.cll4 h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 90px 0;
+    text-align: center;
+}
+.img4{
+    text-align: center;
+}
+.img4 input{
+    border-radius: 32px;
+}
+.img4 input[name="email"]{
+    width: 480px;
+    height: 55px;
+    background: #f3f2f2;
+    color: #989898;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.img4 input[type="submit"]{
+    height: 55px;
+    width: 190px;
+    background: #f48146;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.cl5{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cl5 .cll5{
+    background-image: url("/image/img5.jpg");
+    width: 100%;
+    height: 590px;
+    text-align: center;
+}
+.cll5 h1{
+    margin: 100px 0;
+    font-size: 45px;
+}
+.img5 img{
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.img5 p{
+    font-size: 15px;
+    color: #888888;
+    text-align: center;
+}
+.img5 h3{
+    margin: 20px 0;
+    color: #888888;
+}
+.img5 span{
+    color: #f48146;
+}
+
+
+.cl6{
+    box-sizing: border-box;
+}
+.cl6 .cll6, .cll66, .cll666{
+    margin: 140px 0;
+    height: 660px;
+}
+.cl6 .cll6{
+
+}
+
+.cl6 .cll6 h3{
+    font-size: 45px;
+}
+.cl6 .cll6 p{
+    font-size: 15px;
+    color: #929292;
+    margin: 25px 0;
+}
+.cl6 .cll6 span{
+    font-size: 15px;
+    color: #f48146;
+}
+.cl6 .cll6 input{
+    width: 190px;
+    height: 55px;
+    background: #f48146;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 32px;
+    margin: 50px 0;
+}
+
+.cl6 .cll66{
+
+    padding: 0;
+
+}
+.cl6 .cll66 img{
+
+}
+.cl6 .cll666{
+
+
+}
+.cl6 .cll666 .img8{
+    margin-bottom: 35px;
+}
+
+/*footer css*/
+footer{
+    background: linear-gradient(to right, #f48146 50%, #ffffff 50%);
+}
+footer .contact-form{
+    color: #f48146;;
+    box-sizing: border-box;
+    height: 700px;
+}
+footer .contact-form .content-form{
+    margin-top: 138px;
+    margin-right: 100px;
+    padding: 60px;
+    background-color: white;
+}
+.content-form input, textarea{
+    border: none;
+    color: #777777;
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+}
+.content-form input:focus, textarea:focus{
+    outline: none;
+}
+.first-row input{
+    width: 40%;
+}
+
+.first-row input[name="email"]{
+    float: right;
+}
+.contact-form-row{
+    margin-bottom: 28px;
+}
+.submit-row{
+    text-align: center;
+}
+.contact-form input[name="submit"]{
+    background: #f48146;
+    color: #ffffff;
+    width: 183px;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 32px;
+}
+
+footer .contact-info{
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 100px;
+    height: 700px;
+}
+footer .contact-info h3{
+    font-size: 45px;
+    color: #010101;
+}
+footer .contact-info h4{
+    font-size: 25px;
+    color: #010101;
+}
+footer .contact-info p{
+    font-size: 15px;
+    color: #010101;
+}
+footer .contact-info .line-contact-info p span{
+    font-size: 15px;
+    color: #f48146;
+}
+.line-contact-info{
+
+    margin: 30px 0;
+}
+footer .social-icon i{
+    width: 40px;
+    height: 40px;
+    background: #bbbbbb;
+    color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+footer .social-icon i:hover{
+    background: #f48146;
+}
+footer .copyright{
+    position: absolute;
+    bottom: 17px;
+    right: -70px;
+}
+footer .copyright p{
+    color: #b5b5b5;
+    font-size: 15px;
+}
